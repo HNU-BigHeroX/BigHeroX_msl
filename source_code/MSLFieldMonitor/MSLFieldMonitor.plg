@@ -1,0 +1,392 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MSLFieldMonitor - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MSLFieldMonitor.res" /d "_DEBUG" /d "_AFXDLL" "C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\MSLFieldMonitor.rc"" 
+Creating temporary file "C:\Users\Dev\AppData\Local\Temp\RSP9821.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MSLFieldMonitor.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\BallMoveEstimation.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\CatchPosition.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\CoachUDP.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\DataCenter.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\DisRobotStatus.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\DisRoleStatus.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\DisSideClr.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\DlgAgentIPList.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\DlgLocIPInfo.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\GreenField.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\DepthMap\IDepthMap.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Role\IRolePlay.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\ITactic.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\MainFrm.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\DepthMap\Map_FreeKick_Catch.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\DepthMap\Map_Playing_Catch.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\MSLFieldMonitor.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\MSLFieldMonitorDoc.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\MSLFieldMonitorView.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\ObstFusion.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\ObstFusion_ZWJ.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\PassSwitch.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\RefClient.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Role\Role_Attack.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Role\Role_Catch.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Role\Role_CatchFocus.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Role\Role_CatchMove.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Role\Role_DefBall.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Role\Role_Defence.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Role\Role_DefGoal.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Role\Role_FocusOnBall.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Role\Role_GoalKeeper.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Role\Role_Manual.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Role\Role_MoveTo.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Role\Role_Pass.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Role\Role_PassMove.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Role\Role_Penalty.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Role\Role_SearchBall.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Role\Role_Stop.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Counter_FreeKick.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Counter_KickOff.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Counter_Penalty.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_DroppedBall.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_FreeKick.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_KickOff.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Off.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_ParkIn.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Penalty.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Playing.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Playing_AreaDef.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Stop.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_TechChallenge.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_TechChallenge_Simple.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Test_4Pass.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Test_AllDef.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Test_CatchMove.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Test_MoveARound.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Test_Passing.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\TCPClient.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\ToAgent.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\UDPReceive.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\UDPSend.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\WndField.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\WndMap.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\WndMatchPanel.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\WndReferee.cpp"
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\WndStatus.cpp"
+]
+Creating command line "cl.exe @C:\Users\Dev\AppData\Local\Temp\RSP9821.tmp" 
+Creating temporary file "C:\Users\Dev\AppData\Local\Temp\RSP9822.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MSLFieldMonitor.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Dev\AppData\Local\Temp\RSP9822.tmp" 
+Creating temporary file "C:\Users\Dev\AppData\Local\Temp\RSP9823.tmp" with contents
+[
+gdiplus.lib cxcore.lib cv.lib cvaux.lib highgui.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/MSLFieldMonitor.pdb" /debug /machine:I386 /out:"Debug/MSLFieldMonitor.exe" /pdbtype:sept 
+".\Debug\BallMoveEstimation.obj"
+".\Debug\CatchPosition.obj"
+".\Debug\CoachUDP.obj"
+".\Debug\DataCenter.obj"
+".\Debug\DisRobotStatus.obj"
+".\Debug\DisRoleStatus.obj"
+".\Debug\DisSideClr.obj"
+".\Debug\DlgAgentIPList.obj"
+".\Debug\DlgLocIPInfo.obj"
+".\Debug\GreenField.obj"
+".\Debug\IDepthMap.obj"
+".\Debug\IRolePlay.obj"
+".\Debug\ITactic.obj"
+".\Debug\MainFrm.obj"
+".\Debug\Map_FreeKick_Catch.obj"
+".\Debug\Map_Playing_Catch.obj"
+".\Debug\MSLFieldMonitor.obj"
+".\Debug\MSLFieldMonitorDoc.obj"
+".\Debug\MSLFieldMonitorView.obj"
+".\Debug\ObstFusion.obj"
+".\Debug\ObstFusion_ZWJ.obj"
+".\Debug\PassSwitch.obj"
+".\Debug\RefClient.obj"
+".\Debug\Role_Attack.obj"
+".\Debug\Role_Catch.obj"
+".\Debug\Role_CatchFocus.obj"
+".\Debug\Role_CatchMove.obj"
+".\Debug\Role_DefBall.obj"
+".\Debug\Role_Defence.obj"
+".\Debug\Role_DefGoal.obj"
+".\Debug\Role_FocusOnBall.obj"
+".\Debug\Role_GoalKeeper.obj"
+".\Debug\Role_Manual.obj"
+".\Debug\Role_MoveTo.obj"
+".\Debug\Role_Pass.obj"
+".\Debug\Role_PassMove.obj"
+".\Debug\Role_Penalty.obj"
+".\Debug\Role_SearchBall.obj"
+".\Debug\Role_Stop.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Tac_Counter_FreeKick.obj"
+".\Debug\Tac_Counter_KickOff.obj"
+".\Debug\Tac_Counter_Penalty.obj"
+".\Debug\Tac_DroppedBall.obj"
+".\Debug\Tac_FreeKick.obj"
+".\Debug\Tac_KickOff.obj"
+".\Debug\Tac_Off.obj"
+".\Debug\Tac_ParkIn.obj"
+".\Debug\Tac_Penalty.obj"
+".\Debug\Tac_Playing.obj"
+".\Debug\Tac_Playing_AreaDef.obj"
+".\Debug\Tac_Stop.obj"
+".\Debug\Tac_TechChallenge.obj"
+".\Debug\Tac_TechChallenge_Simple.obj"
+".\Debug\Tac_Test_4Pass.obj"
+".\Debug\Tac_Test_AllDef.obj"
+".\Debug\Tac_Test_CatchMove.obj"
+".\Debug\Tac_Test_MoveARound.obj"
+".\Debug\Tac_Test_Passing.obj"
+".\Debug\TCPClient.obj"
+".\Debug\ToAgent.obj"
+".\Debug\UDPReceive.obj"
+".\Debug\UDPSend.obj"
+".\Debug\WndField.obj"
+".\Debug\WndMap.obj"
+".\Debug\WndMatchPanel.obj"
+".\Debug\WndReferee.obj"
+".\Debug\WndStatus.obj"
+".\Debug\MSLFieldMonitor.res"
+]
+Creating command line "link.exe @C:\Users\Dev\AppData\Local\Temp\RSP9823.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+
+NOTE: WINVER has been defined as 0x0500 or greater which enables
+Windows NT 5.0 and Windows 98 features. When these headers were released,
+Windows NT 5.0 beta 1 and Windows 98 beta 2.1 were the current versions.
+
+For this release when WINVER is defined as 0x0500 or greater, you can only
+build beta or test applications.  To build a retail application,
+set WINVER to 0x0400 or visit http://www.microsoft.com/msdn/sdk
+to see if retail Windows NT 5.0 or Windows 98 headers are available.
+
+See the SDK release notes for more information.
+
+Compiling...
+BallMoveEstimation.cpp
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\BallMoveEstimation.cpp(286) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+CatchPosition.cpp
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\CatchPosition.cpp(152) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\CatchPosition.cpp(153) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\CatchPosition.cpp(154) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\CatchPosition.cpp(602) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\CatchPosition.cpp(690) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+CoachUDP.cpp
+DataCenter.cpp
+DisRobotStatus.cpp
+DisRoleStatus.cpp
+DisSideClr.cpp
+DlgAgentIPList.cpp
+DlgLocIPInfo.cpp
+GreenField.cpp
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\GreenField.cpp(459) : warning C4018: '<' : signed/unsigned mismatch
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\GreenField.cpp(498) : warning C4018: '==' : signed/unsigned mismatch
+IDepthMap.cpp
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\DepthMap\IDepthMap.cpp(93) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+IRolePlay.cpp
+ITactic.cpp
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\ITactic.cpp(188) : warning C4018: '==' : signed/unsigned mismatch
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\ITactic.cpp(337) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\ITactic.cpp(699) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\ITactic.cpp(725) : warning C4018: '==' : signed/unsigned mismatch
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\ITactic.cpp(753) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\ITactic.cpp(774) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\ITactic.cpp(795) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\ITactic.cpp(812) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\ITactic.cpp(826) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\ITactic.cpp(889) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\ITactic.cpp(922) : warning C4018: '<' : signed/unsigned mismatch
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\ITactic.cpp(925) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\ITactic.cpp(992) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\ITactic.cpp(1038) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\ITactic.cpp(1081) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\ITactic.cpp(1113) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\ITactic.cpp(1117) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\ITactic.cpp(1144) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+MainFrm.cpp
+Map_FreeKick_Catch.cpp
+Map_Playing_Catch.cpp
+MSLFieldMonitor.cpp
+MSLFieldMonitorDoc.cpp
+MSLFieldMonitorView.cpp
+ObstFusion.cpp
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\ObstFusion.cpp(164) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\ObstFusion.cpp(165) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\ObstFusion.cpp(167) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\ObstFusion.cpp(455) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\ObstFusion.cpp(456) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\ObstFusion.cpp(777) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\ObstFusion.cpp(778) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+Generating Code...
+Compiling...
+ObstFusion_ZWJ.cpp
+PassSwitch.cpp
+RefClient.cpp
+Role_Attack.cpp
+Role_Catch.cpp
+Role_CatchFocus.cpp
+Role_CatchMove.cpp
+Role_DefBall.cpp
+Role_Defence.cpp
+Role_DefGoal.cpp
+Role_FocusOnBall.cpp
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Role\Role_FocusOnBall.cpp(77) : warning C4018: '<' : signed/unsigned mismatch
+Role_GoalKeeper.cpp
+Role_Manual.cpp
+Role_MoveTo.cpp
+Role_Pass.cpp
+Role_PassMove.cpp
+Role_Penalty.cpp
+Role_SearchBall.cpp
+Role_Stop.cpp
+Tac_Counter_FreeKick.cpp
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Counter_FreeKick.cpp(125) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Counter_FreeKick.cpp(468) : warning C4101: 'tmpball' : unreferenced local variable
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Counter_FreeKick.cpp(676) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Counter_FreeKick.cpp(684) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Counter_FreeKick.cpp(690) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+Generating Code...
+Compiling...
+Tac_Counter_KickOff.cpp
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Counter_KickOff.cpp(168) : warning C4101: 'tmpball' : unreferenced local variable
+Tac_Counter_Penalty.cpp
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Counter_Penalty.cpp(55) : warning C4101: 'tmpball' : unreferenced local variable
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Counter_Penalty.cpp(105) : warning C4101: 'tmpball' : unreferenced local variable
+Tac_DroppedBall.cpp
+Tac_FreeKick.cpp
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_FreeKick.cpp(223) : warning C4101: 'tmpball' : unreferenced local variable
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_FreeKick.cpp(426) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+Tac_KickOff.cpp
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_KickOff.cpp(142) : warning C4101: 'tmpball' : unreferenced local variable
+Tac_Off.cpp
+Tac_ParkIn.cpp
+Tac_Penalty.cpp
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Penalty.cpp(55) : warning C4101: 'tmpball' : unreferenced local variable
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Penalty.cpp(84) : warning C4101: 'tmpball' : unreferenced local variable
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Penalty.cpp(111) : warning C4101: 'tmpball' : unreferenced local variable
+Tac_Playing.cpp
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Playing.cpp(353) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+Tac_Playing_AreaDef.cpp
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Playing_AreaDef.cpp(98) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Playing_AreaDef.cpp(228) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_Playing_AreaDef.cpp(247) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+Tac_Stop.cpp
+Tac_TechChallenge.cpp
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_TechChallenge.cpp(96) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_TechChallenge.cpp(118) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\Tac\Tac_TechChallenge.cpp(140) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+Tac_TechChallenge_Simple.cpp
+Tac_Test_4Pass.cpp
+Tac_Test_AllDef.cpp
+Tac_Test_CatchMove.cpp
+Tac_Test_MoveARound.cpp
+Tac_Test_Passing.cpp
+TCPClient.cpp
+ToAgent.cpp
+Generating Code...
+Compiling...
+UDPReceive.cpp
+UDPSend.cpp
+WndField.cpp
+WndMap.cpp
+WndMatchPanel.cpp
+C:\Users\Dev\Desktop\Hcm_dev\hnu-robotcup-middlesize\source_code\MSLFieldMonitor\WndMatchPanel.cpp(433) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+WndReferee.cpp
+WndStatus.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\Dev\AppData\Local\Temp\RSPA071.tmp" with contents
+[
+/nologo /o"Debug/MSLFieldMonitor.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\BallMoveEstimation.sbr"
+".\Debug\CatchPosition.sbr"
+".\Debug\CoachUDP.sbr"
+".\Debug\DataCenter.sbr"
+".\Debug\DisRobotStatus.sbr"
+".\Debug\DisRoleStatus.sbr"
+".\Debug\DisSideClr.sbr"
+".\Debug\DlgAgentIPList.sbr"
+".\Debug\DlgLocIPInfo.sbr"
+".\Debug\GreenField.sbr"
+".\Debug\IDepthMap.sbr"
+".\Debug\IRolePlay.sbr"
+".\Debug\ITactic.sbr"
+".\Debug\MainFrm.sbr"
+".\Debug\Map_FreeKick_Catch.sbr"
+".\Debug\Map_Playing_Catch.sbr"
+".\Debug\MSLFieldMonitor.sbr"
+".\Debug\MSLFieldMonitorDoc.sbr"
+".\Debug\MSLFieldMonitorView.sbr"
+".\Debug\ObstFusion.sbr"
+".\Debug\ObstFusion_ZWJ.sbr"
+".\Debug\PassSwitch.sbr"
+".\Debug\RefClient.sbr"
+".\Debug\Role_Attack.sbr"
+".\Debug\Role_Catch.sbr"
+".\Debug\Role_CatchFocus.sbr"
+".\Debug\Role_CatchMove.sbr"
+".\Debug\Role_DefBall.sbr"
+".\Debug\Role_Defence.sbr"
+".\Debug\Role_DefGoal.sbr"
+".\Debug\Role_FocusOnBall.sbr"
+".\Debug\Role_GoalKeeper.sbr"
+".\Debug\Role_Manual.sbr"
+".\Debug\Role_MoveTo.sbr"
+".\Debug\Role_Pass.sbr"
+".\Debug\Role_PassMove.sbr"
+".\Debug\Role_Penalty.sbr"
+".\Debug\Role_SearchBall.sbr"
+".\Debug\Role_Stop.sbr"
+".\Debug\Tac_Counter_FreeKick.sbr"
+".\Debug\Tac_Counter_KickOff.sbr"
+".\Debug\Tac_Counter_Penalty.sbr"
+".\Debug\Tac_DroppedBall.sbr"
+".\Debug\Tac_FreeKick.sbr"
+".\Debug\Tac_KickOff.sbr"
+".\Debug\Tac_Off.sbr"
+".\Debug\Tac_ParkIn.sbr"
+".\Debug\Tac_Penalty.sbr"
+".\Debug\Tac_Playing.sbr"
+".\Debug\Tac_Playing_AreaDef.sbr"
+".\Debug\Tac_Stop.sbr"
+".\Debug\Tac_TechChallenge.sbr"
+".\Debug\Tac_TechChallenge_Simple.sbr"
+".\Debug\Tac_Test_4Pass.sbr"
+".\Debug\Tac_Test_AllDef.sbr"
+".\Debug\Tac_Test_CatchMove.sbr"
+".\Debug\Tac_Test_MoveARound.sbr"
+".\Debug\Tac_Test_Passing.sbr"
+".\Debug\TCPClient.sbr"
+".\Debug\ToAgent.sbr"
+".\Debug\UDPReceive.sbr"
+".\Debug\UDPSend.sbr"
+".\Debug\WndField.sbr"
+".\Debug\WndMap.sbr"
+".\Debug\WndMatchPanel.sbr"
+".\Debug\WndReferee.sbr"
+".\Debug\WndStatus.sbr"]
+Creating command line "bscmake.exe @C:\Users\Dev\AppData\Local\Temp\RSPA071.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+MSLFieldMonitor.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

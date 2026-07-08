@@ -1,0 +1,11 @@
+Release/
+Debug/
+
+.vs
+.vscode
+.idea
+
+.ncb
+.aps
+.opt
+.clw

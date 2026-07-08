@@ -1,0 +1,8 @@
+BasedOnStyle: microsoft
+
+Language: Cpp
+IndentWidth: 4
+Standard: Cpp03
+# Standard: Auto
+SortIncludes: false
+SortUsingDeclarations: false

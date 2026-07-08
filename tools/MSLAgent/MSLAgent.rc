@@ -1,0 +1,305 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\MSLAgent.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\MSLAgent.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 MSLAgent"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "MSLAgent 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2008",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_MSLAGENT_DIALOG DIALOGEX 0, 0, 639, 369
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "MSLAgent 3v3 1.0"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "ID",IDC_STATIC,494,37,9,8
+    LTEXT           "SelfX",IDC_STATIC,494,57,21,8
+    LTEXT           "Ball_y",IDC_STATIC,494,117,25,8
+    LTEXT           "SelfY",IDC_STATIC,494,77,21,8
+    LTEXT           "Ball_x",IDC_STATIC,494,97,25,8
+    EDITTEXT        IDC_ID,526,36,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SELFX,526,55,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SELFY,526,74,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BALLX,526,94,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BALLY,526,114,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Send",IDC_SEND,572,51,50,14
+    LTEXT           "IP:",IDC_STATIC,494,19,13,8
+    LTEXT           "PORT",IDC_STATIC,572,19,17,8
+    EDITTEXT        IDC_IP,508,17,57,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PORT,592,17,33,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Connect",IDC_CONNECT,572,35,50,14
+    LISTBOX         IDC_LIST1,490,134,132,113,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Combo",IDC_COMBO,572,67,50,14
+    PUSHBUTTON      "Stop",IDC_STOP,572,81,50,14
+    PUSHBUTTON      "注册到Coach",IDC_MULTIAGEBT,367,48,50,14,NOT WS_VISIBLE
+    CONTROL         "List2",IDC_LIST2,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,12,270,330,87
+    PUSHBUTTON      "更新球坐标",IDC_UPDATEBALL,417,95,50,14
+    EDITTEXT        IDC_MBALLX,425,74,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MBALLY,368,74,40,14,ES_AUTOHSCROLL
+    GROUPBOX        "单体",IDC_STATIC,481,7,151,245
+    GROUPBOX        "来自Coach的数据包解析",IDC_STATIC,7,257,340,106
+    PUSHBUTTON      "CntAndSnd",IDC_CNTNSND,571,99,50,14
+    LTEXT           "Static",IDC_BKFIELD,14,17,328,223,SS_NOTIFY
+    GROUPBOX        "赛场仿真",IDC_STATIC,7,7,469,245
+    CONTROL         "Agent1",IDC_ADDAG1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,357,183,40,10
+    LTEXT           "Static",IDC_NUMDIS,415,163,51,82
+    PUSHBUTTON      "拖拽球",IDC_CTRLALLBALL,359,95,50,14
+    GROUPBOX        "通讯",IDC_STATIC,344,13,130,50
+    GROUPBOX        "球信息",IDC_STATIC,344,66,130,81
+    GROUPBOX        "状态",IDC_STATIC,345,153,130,99
+    LTEXT           "X",IDC_STATIC,355,76,8,8
+    LTEXT           "Y",IDC_STATIC,413,76,8,8
+    CONTROL         "Agent2",IDC_ADDAG2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,357,197,40,10
+    CONTROL         "Agent3",IDC_ADDAG3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,357,209,40,10
+    CONTROL         "Agent4",IDC_ADDAG4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,357,223,40,10
+    CONTROL         "Agent5",IDC_ADDAG5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,357,237,40,10
+    GROUPBOX        "虚拟角色",IDC_STATIC,458,256,174,106
+    LTEXT           "ID:",IDC_STATIC,464,275,13,8
+    LTEXT           "ID:",IDC_STATIC,464,297,13,8
+    EDITTEXT        IDC_VIRTUALID1,479,271,20,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_VIRTUALID2,479,293,20,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "虚拟进攻1",IDC_VIRTUALATK1,499,271,44,14
+    PUSHBUTTON      "虚拟进攻2",IDC_VIRTUALATK2,499,293,44,14
+    LTEXT           "ID:",IDC_STATIC,464,319,13,8
+    EDITTEXT        IDC_VIRTUALID3,479,315,20,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "虚拟主罚",IDC_VIRTUALKOP,499,315,44,14
+    LTEXT           "ID:",IDC_STATIC,464,341,13,8
+    EDITTEXT        IDC_VIRTUALID4,479,337,20,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "虚拟从罚",IDC_VIRTUALKOS,499,337,44,14
+    PUSHBUTTON      "去除虚拟",IDC_CANCELVIR1,543,269,44,14
+    PUSHBUTTON      "去除虚拟",IDC_CANCELVIR2,544,291,44,14
+    PUSHBUTTON      "去除虚拟",IDC_CANCELVIR3,543,313,44,14
+    PUSHBUTTON      "去除虚拟",IDC_CANCELVIR4,545,337,44,14
+    PUSHBUTTON      "虚拟守门员",IDC_VIRTUALGK,588,260,44,14
+    PUSHBUTTON      "球失踪",IDC_BALLMISSING,359,113,50,14
+    EDITTEXT        IDC_CBALLID,422,113,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "拿到球",IDC_AGGETBALL,360,129,50,14
+    CONTROL         "立刻进攻",IDC_ATKIM,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,356,162,48,10
+    EDITTEXT        IDC_COACHIP,377,21,88,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "设置障碍物",IDC_ADDOBST,359,287,44,14
+    GROUPBOX        "障碍物",IDC_STATIC,349,256,106,106
+    EDITTEXT        IDC_OBSTOWN,372,270,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "停止设置",IDC_NOADDOBST,359,301,44,14
+    PUSHBUTTON      "全局障碍物",IDC_SETTRUEOBST,359,315,44,14
+    EDITTEXT        IDC_CYCLE,371,40,40,14,ES_AUTOHSCROLL
+    LTEXT           "CoachIP",IDC_STATIC,348,25,29,8
+    LTEXT           "周期",IDC_STATIC,349,43,17,8
+    PUSHBUTTON      "故障",IDC_ERR,418,129,50,14
+    EDITTEXT        IDC_OBST_ID_TOREMOVE,352,338,23,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "移除障碍",IDC_REMOVEOBST,378,337,34,14
+    PUSHBUTTON      "障碍物爆发",IDC_OBST_BUST,405,287,44,14
+    PUSHBUTTON      "清空列表",IDC_CLEAR_LIST,571,114,50,14
+    PUSHBUTTON      "开始仿真",IDC_TOCAPTAIN,415,40,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "MSLAgent Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "MSLAgent\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2008\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "MSLAgent.EXE\0"
+            VALUE "ProductName", "MSLAgent 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_MSLAGENT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 632
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 362
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BLUEFIELD           BITMAP  DISCARDABLE     "res\\YelFullField.bmp"
+IDB_YELFIELD            BITMAP  DISCARDABLE     "res\\BlueFullField.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      DISCARDABLE     "res\\XPstyle.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 MSLAgent(&A)..."
+    IDP_SOCKETS_INIT_FAILED "Windows 通信端口初始化失败。"
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\MSLAgent.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

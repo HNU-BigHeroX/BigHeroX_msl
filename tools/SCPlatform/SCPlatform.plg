@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SCPlatform - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/SCPlatform.res" /d "NDEBUG" /d "_AFXDLL" "C:\RoboCup中型组_安装包和源代码\辅助程序源代码\SCPlatform\SCPlatform.rc"" 
+Creating temporary file "C:\Users\Dev\AppData\Local\Temp\RSP16AA.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/SCPlatform.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\SCPlatform\SCPlatform.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\SCPlatform\SCPlatformDlg.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\SCPlatform\SerialPort.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\SCPlatform\VoyCmd.cpp"
+]
+Creating command line "cl.exe @C:\Users\Dev\AppData\Local\Temp\RSP16AA.tmp" 
+Creating temporary file "C:\Users\Dev\AppData\Local\Temp\RSP16BA.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/SCPlatform.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\SCPlatform\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Dev\AppData\Local\Temp\RSP16BA.tmp" 
+Creating temporary file "C:\Users\Dev\AppData\Local\Temp\RSP16BB.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/SCPlatform.pdb" /machine:I386 /out:"Release/SCPlatform.exe" 
+".\Release\SCPlatform.obj"
+".\Release\SCPlatformDlg.obj"
+".\Release\SerialPort.obj"
+".\Release\StdAfx.obj"
+".\Release\VoyCmd.obj"
+".\Release\SCPlatform.res"
+]
+Creating command line "link.exe @C:\Users\Dev\AppData\Local\Temp\RSP16BB.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+SCPlatform.cpp
+SCPlatformDlg.cpp
+SerialPort.cpp
+VoyCmd.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SCPlatform.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

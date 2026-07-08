@@ -1,0 +1,81 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MSLAgent - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/MSLAgent.res" /d "NDEBUG" /d "_AFXDLL" "C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\MSLAgent.rc"" 
+Creating temporary file "C:\Users\Dev\AppData\Local\Temp\RSPFE45.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/MSLAgent.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\AgentUDP.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\CPU_Battery.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\MSLAgent.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\MSLAgentDlg.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\NumDisplay.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\TCPClient.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\UDPServer.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\UPFullField.cpp"
+]
+Creating command line "cl.exe @C:\Users\Dev\AppData\Local\Temp\RSPFE45.tmp" 
+Creating temporary file "C:\Users\Dev\AppData\Local\Temp\RSPFE56.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/MSLAgent.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Dev\AppData\Local\Temp\RSPFE56.tmp" 
+Creating temporary file "C:\Users\Dev\AppData\Local\Temp\RSPFE57.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/MSLAgent.pdb" /machine:I386 /out:"Release/MSLAgent.exe" 
+".\Release\AgentUDP.obj"
+".\Release\CPU_Battery.obj"
+".\Release\MSLAgent.obj"
+".\Release\MSLAgentDlg.obj"
+".\Release\NumDisplay.obj"
+".\Release\StdAfx.obj"
+".\Release\TCPClient.obj"
+".\Release\UDPServer.obj"
+".\Release\UPFullField.obj"
+".\Release\MSLAgent.res"
+]
+Creating command line "link.exe @C:\Users\Dev\AppData\Local\Temp\RSPFE57.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AgentUDP.cpp
+CPU_Battery.cpp
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\CPU_Battery.cpp(216) : warning C4035: 'RDTSC' : no return value
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\CPU_Battery.cpp(261) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+MSLAgent.cpp
+MSLAgentDlg.cpp
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\MSLAgentDlg.cpp(405) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\MSLAgentDlg.cpp(443) : warning C4305: '+=' : truncation from 'const double' to 'float'
+NumDisplay.cpp
+TCPClient.cpp
+UDPServer.cpp
+UPFullField.cpp
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\UPFullField.cpp(835) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\UPFullField.cpp(1103) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\UPFullField.cpp(1107) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\UPFullField.cpp(1200) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\UPFullField.cpp(1454) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\UPFullField.cpp(1493) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\UPFullField.cpp(1494) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\UPFullField.cpp(1514) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\UPFullField.cpp(1515) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\UPFullField.cpp(1623) : warning C4018: '==' : signed/unsigned mismatch
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\MSLAgent\UPFullField.cpp(1837) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MSLAgent.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

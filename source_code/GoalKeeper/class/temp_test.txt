@@ -1,0 +1,63 @@
+if (xingwei!=11)
+{
+	float front_a,front_v,turn_w;
+	Dribble_ball.O_movement_T_analyze(&front_a,&front_v,&turn_w,motol_as,motob_as,motor_as);//    *move_v_angle, *move_v_speed, *turn_v
+//	move_test_C.front_v_p		=					front_v*0.005126;
+//	move_test_C.front_v_angle_p	=angle_add_transfer(front_a,-180);
+
+	Debug_D[31].Draw_vp_("front_v",front_v,0,30000,1,  0,0,128, pBuffer);//("100",100,0,30000,1,  0,0,128, pBuffer);
+	Debug_D[30].Draw_vp_("front_a",front_a,0,30000,1,  0,0,128, pBuffer);
+	Debug_D[35].Draw_vp_("ballw",y.ball_zhong,0,30000,1,  0,0,128, pBuffer);
+	Debug_D[34].Draw_vp_("jieqiuqs",jieqiuqs,0,30000,1,  0,0,128, pBuffer);
+//	Debug_D[36].Draw_vp_("xingwei",float(xingwei),0,30000,1,  0,0,128, pBuffer);
+	Debug_D[36].Draw_vp_("rec_ctrl",float(net.rec_ctrl),0,30000,1,  0,0,128, pBuffer);
+	Debug_D[25].Debug_Display_Circle_End();
+
+}
+if (xingwei==11)
+{
+/*	float mb,ml,mr;	//测试电机返回值—as 回move_test_C使用值
+	move_test_C.turn_v_c=100;
+	move_test_C.front_v_c=10;
+	move_test_C.front_v_angle_c=45;
+	move_test_C.uptech_output_O(&mb,&ml,&mr);
+	float front_a,front_v,turn_w;
+	Dribble_ball.O_movement_T_analyze(&front_a,&front_v,&turn_w,ml,mb,mr);//    *move_v_angle, *move_v_speed, *turn_v
+	float v		=					front_v*0.005126;// v=front_v/(-195.083)
+	float a		=angle_add_transfer(front_a,-180);
+	float t     =turn_w*-0.00512605;// t=turn_w/(-195.082)
+*/	
+	Debug_D[0].Draw_vp_(0 ,240        ,100        ,0          ,0,255,0, pBuffer);//datain输入测量误差
+	Debug_D[20].Draw_vp_( 0,240        ,100        ,0          ,0,255,255, pBuffer);
+	Debug_D[1].Draw_vp_(0 ,240        ,100        ,0          ,255,255,0, pBuffer);//dataout输出
+	Debug_D[2].Draw_vp_(0 ,50         ,30000        ,0          ,255,  0,  0, pBuffer);//mtr实际输出量
+	Debug_D[3].Draw_vp_(0 ,100        ,30000        ,0          ,  0,255,  0, pBuffer);//mtb
+	Debug_D[4].Draw_vp_(0 ,150        ,30000        ,0          ,  0,  0,255, pBuffer);//mtl
+	Debug_D[5].Draw_vp_(0 ,50         ,30000        ,0          ,128,  0,  0, pBuffer);//mr受限制标准量
+	Debug_D[6].Draw_vp_(0 ,100        ,30000        ,0          ,  0,128,  0, pBuffer);//mb
+	Debug_D[7].Draw_vp_(0 ,150        ,30000        ,0          ,  0,  0,128, pBuffer);//ml
+	Debug_D[8].Draw_vp_( 0,300        ,100        ,0          ,255,255,0, pBuffer);
+	
+/*	
+	Debug_D[25].Draw_point_scale(jieqiux,jieqiuy,255,255,255);
+	Debug_D[25].DrawCircle_scale(jieqiux,jieqiuy,2,255,255,255);
+	Debug_D[25].Draw_vp_string(&Debug_D[36] ,255,255,255);
+	Debug_D[25].Draw_vp_string(Debug_D[30].save_frame ,"front_v",0,255,0);
+	Debug_D[25].Draw_vp_string(Debug_D[31].save_frame ,"front_tv",0,255,0);
+	Debug_D[25].Draw_point_string	   (Debug_D[28].save_frame ,Debug_D[29].save_frame ,1000,255,0,0);
+	Debug_D[25].Draw_point_string	   (Debug_D[32].save_frame ,Debug_D[33].save_frame ,1000,0,0,255);
+	Debug_D[25].Draw_line_string_polar_coordinates(&Debug_D[31] ,&Debug_D[30] ,320,240,1000,0,255,0);
+	Debug_D[25].Draw_line_string_polar_coordinates(&Debug_D[35] ,&Debug_D[34] ,320,240,1000,0,0,255);
+	Debug_D[25].Draw_point_string_onwin(Debug_D[26].save_frame ,Debug_D[27].save_frame ,1000,0,255,0, "xingwei30");
+*/
+	Debug_D[25].Draw_point_scale(jieqiux,jieqiuy,255,255,255);
+	Debug_D[25].DrawCircle_scale(jieqiux,jieqiuy,2,255,255,255);
+	Debug_D[25].Draw_vp_string(&Debug_D[36] ,255,255,255);
+	Debug_D[25].Draw_vp_string(&Debug_D[30] ,0,255,0);
+	Debug_D[25].Draw_vp_string(&Debug_D[31] ,0,255,0);
+	Debug_D[25].Draw_point_string	   (&Debug_D[28],&Debug_D[29],1000,255,0,0);
+	Debug_D[25].Draw_point_string	   (&Debug_D[32],&Debug_D[33],1000,0,0,255);
+	Debug_D[25].Draw_line_string_polar_coordinates(&Debug_D[31] ,&Debug_D[30] ,320,240,1000,0,255,0);
+	Debug_D[25].Draw_line_string_polar_coordinates(&Debug_D[35] ,&Debug_D[34] ,320,240,1000,0,0,255);
+	Debug_D[25].Draw_point_string_onwin(&Debug_D[26],&Debug_D[27],1000,0,255,0, "xingwei30");
+}

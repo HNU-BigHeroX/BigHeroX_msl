@@ -1,0 +1,212 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Thresdhold - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/Thresdhold.res" /d "NDEBUG" /d "_AFXDLL" "C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\Thresdhold.rc"" 
+Creating temporary file "C:\Users\Dev\AppData\Local\Temp\RSP6595.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/Thresdhold.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\AgentNet.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\BmpLoader.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\CameraProcDlg.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\Color.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\ColorList.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\ColorTest.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\Compasee.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\ConctDomain.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\DHCameraProc.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\Dilation.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\Dlg_FramePreview.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\Erosion.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\GBRGMalvar.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\HSI_Vision.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\ICCamera.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\IntPID.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\ItemList.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\NetCmt.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\NetSend.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\PieSensor.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\RGB2HSI.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\RGBShow.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\SerialCom.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\SpreadVis.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\StillView.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\Thresdhold.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\ThresdholdDlg.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\UPGraphics.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\Vision.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\VoyCmd.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\VoyHSI.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\VoySetting.cpp"
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\VoyWith2Cap.cpp"
+]
+Creating command line "cl.exe @C:\Users\Dev\AppData\Local\Temp\RSP6595.tmp" 
+Creating temporary file "C:\Users\Dev\AppData\Local\Temp\RSP65A5.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/Thresdhold.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Dev\AppData\Local\Temp\RSP65A5.tmp" 
+Creating temporary file "C:\Users\Dev\AppData\Local\Temp\RSP65B6.tmp" with contents
+[
+tisgrabber.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Thresdhold.pdb" /machine:I386 /out:"Release/Thresdhold.exe" 
+".\Release\AgentNet.obj"
+".\Release\BmpLoader.obj"
+".\Release\CameraProcDlg.obj"
+".\Release\Color.obj"
+".\Release\ColorList.obj"
+".\Release\ColorTest.obj"
+".\Release\Compasee.obj"
+".\Release\ConctDomain.obj"
+".\Release\DHCameraProc.obj"
+".\Release\Dilation.obj"
+".\Release\Dlg_FramePreview.obj"
+".\Release\Erosion.obj"
+".\Release\GBRGMalvar.obj"
+".\Release\HSI_Vision.obj"
+".\Release\ICCamera.obj"
+".\Release\IntPID.obj"
+".\Release\ItemList.obj"
+".\Release\NetCmt.obj"
+".\Release\NetSend.obj"
+".\Release\PieSensor.obj"
+".\Release\RGB2HSI.obj"
+".\Release\RGBShow.obj"
+".\Release\SerialCom.obj"
+".\Release\SpreadVis.obj"
+".\Release\StdAfx.obj"
+".\Release\StillView.obj"
+".\Release\Thresdhold.obj"
+".\Release\ThresdholdDlg.obj"
+".\Release\UPGraphics.obj"
+".\Release\Vision.obj"
+".\Release\VoyCmd.obj"
+".\Release\VoyHSI.obj"
+".\Release\VoySetting.obj"
+".\Release\VoyWith2Cap.obj"
+".\Release\Thresdhold.res"
+]
+Creating command line "link.exe @C:\Users\Dev\AppData\Local\Temp\RSP65B6.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AgentNet.cpp
+BmpLoader.cpp
+CameraProcDlg.cpp
+Color.cpp
+ColorList.cpp
+ColorTest.cpp
+Compasee.cpp
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\Compasee.cpp(91) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\Compasee.cpp(92) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\Compasee.cpp(101) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+ConctDomain.cpp
+DHCameraProc.cpp
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\DHCameraProc.cpp(112) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\DHCameraProc.cpp(127) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+Dilation.cpp
+Dlg_FramePreview.cpp
+Erosion.cpp
+GBRGMalvar.cpp
+HSI_Vision.cpp
+ICCamera.cpp
+IntPID.cpp
+ItemList.cpp
+NetCmt.cpp
+NetSend.cpp
+PieSensor.cpp
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\PieSensor.cpp(261) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\PieSensor.cpp(272) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Generating Code...
+Compiling...
+RGB2HSI.cpp
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\RGB2HSI.cpp(32) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\RGB2HSI.cpp(42) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+RGBShow.cpp
+SerialCom.cpp
+SpreadVis.cpp
+StillView.cpp
+Thresdhold.cpp
+ThresdholdDlg.cpp
+UPGraphics.cpp
+Vision.cpp
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\Vision.cpp(82) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\Vision.cpp(126) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\Vision.cpp(137) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+VoyCmd.cpp
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\VoyCmd.cpp(291) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\VoyCmd.cpp(298) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\VoyCmd.cpp(309) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\VoyCmd.cpp(316) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\VoyCmd.cpp(514) : warning C4018: '<' : signed/unsigned mismatch
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\VoyCmd.cpp(549) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\VoyCmd.cpp(550) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\VoyCmd.cpp(573) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\VoyCmd.cpp(592) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\VoyCmd.cpp(865) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\VoyCmd.cpp(899) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\VoyCmd.cpp(941) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\VoyCmd.cpp(945) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\VoyCmd.cpp(954) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\VoyCmd.cpp(979) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\VoyCmd.cpp(983) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+C:\RoboCup中型组_安装包和源代码\辅助程序源代码\Thresdhold\VoyInclude\VoyCmd.cpp(992) : warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+VoyHSI.cpp
+VoySetting.cpp
+VoyWith2Cap.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\Dev\AppData\Local\Temp\RSP69BE.tmp" with contents
+[
+/nologo /o"Release/Thresdhold.bsc" 
+".\Release\StdAfx.sbr"
+".\Release\AgentNet.sbr"
+".\Release\BmpLoader.sbr"
+".\Release\CameraProcDlg.sbr"
+".\Release\Color.sbr"
+".\Release\ColorList.sbr"
+".\Release\ColorTest.sbr"
+".\Release\Compasee.sbr"
+".\Release\ConctDomain.sbr"
+".\Release\DHCameraProc.sbr"
+".\Release\Dilation.sbr"
+".\Release\Dlg_FramePreview.sbr"
+".\Release\Erosion.sbr"
+".\Release\GBRGMalvar.sbr"
+".\Release\HSI_Vision.sbr"
+".\Release\ICCamera.sbr"
+".\Release\IntPID.sbr"
+".\Release\ItemList.sbr"
+".\Release\NetCmt.sbr"
+".\Release\NetSend.sbr"
+".\Release\PieSensor.sbr"
+".\Release\RGB2HSI.sbr"
+".\Release\RGBShow.sbr"
+".\Release\SerialCom.sbr"
+".\Release\SpreadVis.sbr"
+".\Release\StillView.sbr"
+".\Release\Thresdhold.sbr"
+".\Release\ThresdholdDlg.sbr"
+".\Release\UPGraphics.sbr"
+".\Release\Vision.sbr"
+".\Release\VoyCmd.sbr"
+".\Release\VoyHSI.sbr"
+".\Release\VoySetting.sbr"
+".\Release\VoyWith2Cap.sbr"]
+Creating command line "bscmake.exe @C:\Users\Dev\AppData\Local\Temp\RSP69BE.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Thresdhold.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

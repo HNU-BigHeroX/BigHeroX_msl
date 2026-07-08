@@ -1,0 +1,404 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\VoyVideo.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\VoyVideo.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 VoyVideo"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "VoyVideo 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2006",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_VOYVIDEO_DIALOG DIALOGEX 0, 0, 688, 467
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "守门员"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "[快速启动]",IDC_AUTOSTART,630,371,50,14
+    EDITTEXT        IDC_PORT,579,268,58,14,ES_AUTOHSCROLL
+    LTEXT           "COM",IDC_STATIC,557,271,13,8
+    PUSHBUTTON      "[打开相机]",IDC_CAPSTART,636,311,45,13
+    PUSHBUTTON      "关闭相机",IDC_STOPCAP,636,325,45,13,WS_DISABLED
+    PUSHBUTTON      "射门",IDC_REMOVE,461,314,50,14
+    EDITTEXT        IDC_POS,328,402,350,60,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_NOHIDESEL | WS_VSCROLL
+    PUSHBUTTON      "HSI采集",IDC_HSI,636,340,45,13,WS_DISABLED
+    PUSHBUTTON      "[打开串口]",IDC_BUTTON1,637,269,44,13
+    PUSHBUTTON      "左转",IDC_BUTTON2,441,264,28,12
+    PUSHBUTTON      "右转",IDC_BUTTON4,476,264,28,12
+    LTEXT           "射门力度",IDC_STATIC,381,317,34,9
+    EDITTEXT        IDC_KICK_STRENGTH,421,315,35,14,ES_CENTER | 
+                    ES_AUTOHSCROLL
+    CONTROL         "",IDC_OMNIMOVE,"Static",SS_BLACKRECT | SS_NOTIFY | 
+                    SS_CENTERIMAGE,176,315,145,148
+    GROUPBOX        "相机设备",IDC_STATIC,553,303,131,53
+    CONTROL         "",IDC_FIELD,"Static",SS_BLACKRECT,343,12,330,236
+    GROUPBOX        "视觉信息输出",IDC_STATIC,325,391,359,72
+    GROUPBOX        "运动指令",IDC_STATIC,431,255,85,24
+    GROUPBOX        "显示",IDC_STATIC,2,307,172,28
+    GROUPBOX        "平移控制",IDC_STATIC,175,306,148,157
+    GROUPBOX        "地图",IDC_STATIC,323,2,360,249
+    LISTBOX         IDC_STATUS,2,347,171,116,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "通讯",IDC_STATIC,553,260,131,41
+    PUSHBUTTON      "停止行为",IDC_BUTTON6,582,371,44,13
+    LTEXT           "Coach",IDC_STATIC,557,285,21,8
+    EDITTEXT        IDC_COACHIP,579,283,58,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "[连接教练]",IDC_CNTCOACH,637,284,44,13
+    COMBOBOX        IDC_OVERLOOKCOMBO,560,312,71,50,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "ID",IDC_STATIC,519,260,32,41
+    EDITTEXT        IDC_AGENTID,523,268,23,14,ES_CENTER | ES_AUTOHSCROLL
+    PUSHBUTTON      "[修改]",IDC_CHANGEID,522,283,26,14
+    GROUPBOX        "比赛操作",IDC_STATIC,323,303,50,85
+    LTEXT           "带球半径",IDC_STATIC,331,330,33,8
+    EDITTEXT        IDC_HOLDBALL,331,340,35,14,ES_CENTER | ES_AUTOHSCROLL
+    PUSHBUTTON      "保存设置",IDC_PARAM,528,371,50,14
+    PUSHBUTTON      "更新",IDC_UPDATEPARAM,332,360,32,22
+    EDITTEXT        IDC_SET,378,267,45,31,ES_AUTOHSCROLL
+    GROUPBOX        "命令控制",IDC_STATIC,375,255,52,47
+    GROUPBOX        "主动带球装置",IDC_STATIC,375,359,141,32
+    PUSHBUTTON      "吸球",IDC_SUCBALL,461,371,50,14
+    EDITTEXT        IDC_SUBSPEED,382,371,35,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_SUBSPEED2,421,371,35,14,ES_CENTER | ES_AUTOHSCROLL
+    PUSHBUTTON      "传感器",IDC_INFODIS,81,316,38,14
+    PUSHBUTTON      "关闭保护",IDC_NOWATCHDOG,121,316,50,14
+    PUSHBUTTON      "显示图像",IDC_SHOWVIDEO,3,316,38,14
+    PUSHBUTTON      "调试信息",IDC_DEBUG_INFO,42,316,38,14
+    PUSHBUTTON      "图形",IDC_SHOWDBGVIEW,332,269,32,22
+    PUSHBUTTON      "开端口",IDC_NETSEND,326,229,32,14,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    GROUPBOX        "程序流程",IDC_STATIC,2,337,172,126
+    GROUPBOX        "显示",IDC_STATIC,323,255,50,47
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT,2,2,319,265
+    PUSHBUTTON      "全使能",IDC_AMC_EN,326,229,32,14,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    PUSHBUTTON      "全刹车",IDC_AMC_BRAKE,326,229,32,14,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    PUSHBUTTON      "全卸载",IDC_AMC_DISEN,326,229,32,14,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    GROUPBOX        "快捷配置",IDC_STATIC,520,359,164,32
+    GROUPBOX        "射门控制",IDC_STATIC,375,303,141,53
+    LTEXT           "画面偏移",IDC_STATIC,5,285,33,8
+    LTEXT           "X",IDC_STATIC,40,285,8,8
+    LTEXT           "Y",IDC_STATIC,83,285,8,8
+    EDITTEXT        IDC_CAM_OFFSET_X,48,283,27,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAM_OFFSET_Y,91,283,27,14,ES_CENTER | ES_AUTOHSCROLL
+    PUSHBUTTON      "设置偏移",IDC_CAM_SET_OFFSET,121,282,45,13
+    GROUPBOX        "图像位置调整",IDC_STATIC,2,270,172,32
+    EDITTEXT        IDC_DIS_LIFTPOS,421,334,35,14,ES_CENTER | ES_AUTOHSCROLL
+    PUSHBUTTON      "调整",IDC_SET_LIFTPOS,461,333,50,14
+    LTEXT           "击球杆",IDC_STATIC,381,337,34,9
+    GROUPBOX        "MPU",IDC_STATIC,519,303,32,53
+    EDITTEXT        IDC_MPU_PORT,523,323,23,14,ES_CENTER | ES_AUTOHSCROLL
+    PUSHBUTTON      "[打开]",IDC_OPEN_MPU_PORT,522,337,26,14
+    LTEXT           "COM",IDC_STATIC,527,314,13,8
+    GROUPBOX        "守门员信息",IDC_STATIC,176,270,145,32
+    EDITTEXT        IDC_GK_RC_DIS,177,282,142,14,ES_AUTOHSCROLL
+    GROUPBOX        "守门网操作",IDC_STATIC,431,281,85,24
+    EDITTEXT        IDC_GK_VAL,434,289,45,14,ES_CENTER | ES_AUTOHSCROLL
+    PUSHBUTTON      "弹起",IDC_GK_SAVE,483,289,28,12
+END
+
+IDD_DLG_VIEW DIALOG DISCARDABLE  0, 0, 258, 165
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "图像"
+FONT 10, "System"
+BEGIN
+END
+
+IDD_DLG_MOTORINFO DIALOG DISCARDABLE  0, 0, 429, 225
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "信息返回"
+FONT 10, "宋体"
+BEGIN
+    LISTBOX         IDC_MOTORINFO_LIST,7,7,415,142,NOT LBS_NOTIFY | 
+                    LBS_NOINTEGRALHEIGHT | LBS_NOSEL | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_MOTORINFO_DIS,47,161,375,14,ES_CENTER | NOT 
+                    WS_BORDER
+    LTEXT           "电机信息",IDC_STATIC,13,164,31,8
+    EDITTEXT        IDC_IOINFO,46,180,318,12,ES_CENTER | NOT WS_BORDER
+    LTEXT           "IO信息",IDC_STATIC,13,183,24,8
+    EDITTEXT        IDC_ADINFO,47,198,318,14,ES_CENTER | NOT WS_BORDER
+    LTEXT           "AD信息",IDC_STATIC,14,201,24,8
+    PUSHBUTTON      "记录文件",IDC_LOG,372,180,50,14
+END
+
+IDD_DEBUG_INFO DIALOG DISCARDABLE  0, 0, 511, 270
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "调试信息"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,399,249,50,14
+    PUSHBUTTON      "取消",IDCANCEL,454,249,50,14
+    GROUPBOX        "显示",IDC_STATIC,7,7,497,256
+    EDITTEXT        IDC_SIGINFO,14,197,482,48,ES_AUTOHSCROLL
+    LISTBOX         IDC_INFOLIST,14,17,483,173,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DEBUG_VIEW DIALOG DISCARDABLE  0, 0, 507, 339
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "调试图像"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,450,297,50,14
+    PUSHBUTTON      "取消",IDCANCEL,450,318,50,14
+    CONTROL         "",IDC_DEBUG_VIEW,"Static",SS_BLACKRECT,7,7,428,315
+    PUSHBUTTON      "清除",IDC_CLEAN,443,13,50,14
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 187, 98
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,130,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,130,24,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "VoyVideo Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "VoyVideo\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2006\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "VoyVideo.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "VoyVideo 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_VOYVIDEO_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 684
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 463
+    END
+
+    IDD_DLG_VIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 251
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 158
+    END
+
+    IDD_DLG_MOTORINFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 422
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 218
+    END
+
+    IDD_DEBUG_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 504
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 263
+    END
+
+    IDD_DEBUG_VIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 500
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 332
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\22.bmp"
+IDB_BKFIELD             BITMAP  DISCARDABLE     "res\\FullField.bmp"
+IDB_OMNIMOVE_BK         BITMAP  DISCARDABLE     "res\\OmniMove.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      DISCARDABLE     "res\\XPstyle.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 VoyVideo(&A)..."
+    IDP_SOCKETS_INIT_FAILED "Windows 通信端口初始化失败。"
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\VoyVideo.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

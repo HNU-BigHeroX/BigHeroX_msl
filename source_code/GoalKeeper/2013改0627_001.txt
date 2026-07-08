@@ -1,0 +1,85 @@
+if(xingwei==1)
+...
+			m_find.jizuobiao(1805,700-29/*600+100*/,&dingweijiao,&dingweichang,y.benjix,y.benjiy);
+		else
+			m_find.jizuobiao(1805,500+29/*600-100*/,&dingweijiao,&dingweichang,y.benjix,y.benjiy);
+
+
+
+//跟踪球与己方门之间
+if(xingwei==1147)//跟踪球与己方门之间
+{
+...
+	float obj_def_radius = 130;
+
+
+
+if(xingwei==1)//跟踪球消失位置障碍物
+{
+...
+//		y.quanbx=track_black_OBJ_map_X[0]-100*sin(tempangle+coil_direct*3.14*0.4);//track_black_OBJ_map_X[0]*2-y.benjix;
+//		y.quanby=track_black_OBJ_map_Y[0]-100*cos(tempangle+coil_direct*3.14*0.4);//track_black_OBJ_map_Y[0]*2-y.benjiy;
+		y.quanbx=track_black_OBJ_map_X[0]-60*sin(tempangle+coil_direct*3.14*0.3);//70 cm绕对方机体距离 0.3 是绕障碍偏转角
+		y.quanby=track_black_OBJ_map_Y[0]-60*cos(tempangle+coil_direct*3.14*0.3);
+
+
+if(xingwei==107)
+{
+...
+		float aaaaaaa=66;//66//3.6;//3.6;//2;//加速度
+		float zuixiaosudu=180;//180//20;//18;//还是 走路径 规划 的最小速度
+		float speedP=0.6+0.3;//0.6《-------------------------------------------
+
+195.31249746905 = 1/128*max_wheel_linear_speed)*wheel_linear_speed_ratio;
+
+
+
+
+if(xingwei==107)
+{
+...
+//		float			vset=(test_joy_max_jifen*JOY_ZposF-abs(angle_add_transfer2(Path_LA,0))*80);	//cs2013test
+		float			vset=(test_joy_max_jifen*JOY_ZposF-abs(angle_add_transfer2(Path_LA,0))*80);	//cs2013test
+				if (vset<2000)
+					vset=2000;
+				if(jifen<vset)
+					jifen+=(200+150);《-------------------------------
+				if(jifen>vset)
+					jifen-=(250+90); 《-------------------------------
+				if(jifen<0)
+					jifen=0;
+
+
+
+
+if(xingwei==1)
+{
+...
+
+	if(ganksx>0)
+	{	
+		gankjs=29;//准备好下周期0.5s 立刻进入继续抢球 0.5s防止误判
+...
+
+
+//				if (pinqiang_L_pd<pinqiang_R_pd)
+//				{mtl=-6000		;mtr=-13000	;mtb=-13000;}//左小于右 向左突
+//				else
+//				{mtl=13000	;mtr=6000		;mtb=13000;}//右小于左 向右突
+
+				if (pinqiang_L_pd<pinqiang_R_pd)
+				{mtl=-6000		;mtr=-13000	;mtb=-13000;}//左小于右 向左突
+				else
+				{mtl=13000	;mtr=6000		;mtb=13000;}//右小于左 向右突
+
+
+
+
+
+...
+	if(0)//kick_fouce==1)	//待测试
+	{
+		motospeed[3]=9000;
+		motospeed[4]=-9000;		
+	}
+

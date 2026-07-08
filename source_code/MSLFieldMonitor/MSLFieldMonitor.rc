@@ -1,0 +1,611 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\MSLFieldMonitor.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#include ""l.chs\\afxprint.rc""        // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\MSLFieldMonitor.ico"
+IDR_MSLFIETYPE          ICON    DISCARDABLE     "res\\MSLFieldMonitorDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_BMP_AC_PLUG         BITMAP  DISCARDABLE     "res\\AC_Plug.bmp"
+IDB_BMP_BATTERY_CHARGING BITMAP  DISCARDABLE     "res\\battery_charging.bmp"
+IDB_BMP_L2R             BITMAP  DISCARDABLE     "res\\L2RFullField.bmp"
+IDB_BMP_L2R2            BITMAP  DISCARDABLE     "res\\L2RFullField2.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建(&N)\tCtrl+N",            ID_FILE_NEW
+        MENUITEM "打开(&O)...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM "保存(&S)\tCtrl+S",            ID_FILE_SAVE
+        MENUITEM "另存为(&A)...",               ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "打印(&P)...\tCtrl+P",         ID_FILE_PRINT
+        MENUITEM "打印预览(&V)",                ID_FILE_PRINT_PREVIEW
+        MENUITEM "打印设置(&R)...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                    ID_APP_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "撤消(&U)\tCtrl+Z",            ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",            ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",            ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",            ID_EDIT_PASTE
+    END
+    POPUP "查看(&V)"
+    BEGIN
+        MENUITEM "工具栏(&T)",                  ID_VIEW_TOOLBAR
+        MENUITEM "状态栏(&S)",                  ID_VIEW_STATUS_BAR
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 MSLFieldMonitor(&A)...", ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 MSLFieldMonitor"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "WaterPlus",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2014",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_MSLFIELDMONITOR_FORM DIALOG DISCARDABLE  0, 0, 524, 335
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+END
+
+IDD_CHILD_FIELD DIALOG DISCARDABLE  0, 0, 637, 388
+STYLE WS_CHILD
+FONT 9, "??ì?"
+BEGIN
+    CONTROL         "",IDC_GREENFIELD,"Static",SS_BLACKRECT | SS_NOTIFY,7,7,
+                    594,374
+END
+
+IDD_CHILD_MAP DIALOG DISCARDABLE  0, 0, 274, 259
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_CHILD_MATCH_PANEL DIALOG DISCARDABLE  0, 0, 195, 478
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "C_KickOff",IDC_REF_CYN_KICKOFF,7,8,50,14
+    GROUPBOX        "裁判盒指令模拟",IDC_STATIC,0,0,174,104
+    PUSHBUTTON      "C_FreeKick",IDC_REF_CYN_FREEKICK,7,24,50,14
+    PUSHBUTTON      "C_GoalKick",IDC_REF_CYN_GOALKICK,7,38,50,14
+    PUSHBUTTON      "C_ThrowIn",IDC_REF_CYN_THROWIN,7,53,50,14
+    PUSHBUTTON      "C_Corn_Kick",IDC_REF_CYN_CORNERKICK,7,68,50,14
+    PUSHBUTTON      "C_Penalty",IDC_REF_CYN_PENALTY,7,82,50,14
+    PUSHBUTTON      "Start",IDC_REF_START,62,7,50,14
+    PUSHBUTTON      "Stop",IDC_REF_STOP,62,22,50,14
+    PUSHBUTTON      "暂停",IDC_PANEL_PAUSE,62,39,50,26
+    PUSHBUTTON      "Parking",IDC_REF_PARKING,62,66,50,14
+    PUSHBUTTON      "DroppedBall",IDC_REF_DROPPEDBALL,62,82,50,14
+    PUSHBUTTON      "M_KickOff",IDC_REF_MAGENTA_KICKOFF,116,7,50,14
+    PUSHBUTTON      "M_FreeKick",IDC_REF_MAGENTA_FREEKICK,116,22,50,14
+    PUSHBUTTON      "M_GoalKick",IDC_REF_MAGENTA_GOALKICK,116,36,50,14
+    PUSHBUTTON      "M_ThrowIn",IDC_REF_MAGENTA_THROWIN,116,51,50,14
+    PUSHBUTTON      "M_Corn_Kick",IDC_REF_MAGENTA_CORNERKICK,116,67,50,14
+    PUSHBUTTON      "M_Penalty",IDC_REF_MAGENTA_PENALTY,116,82,50,14
+    GROUPBOX        "单体测试",IDC_STATIC,0,108,103,65
+    PUSHBUTTON      "进攻",IDC_AGTEST_ATTACK,6,117,39,14
+    PUSHBUTTON      "守门",IDC_AGTEST_GOALKEEPER,6,133,39,14
+    PUSHBUTTON      "动态接球",IDC_AGTEST_CATCH_MOVE,5,150,39,14
+    PUSHBUTTON      "@接球",IDC_AGTEST_CATCH,51,116,39,14
+    PUSHBUTTON      "@传球",IDC_AGTEST_PASS,52,133,39,14
+    GROUPBOX        "自定义行为",IDC_STATIC,105,107,69,67
+    LTEXT           "行为号",IDC_STATIC,111,118,25,8
+    EDITTEXT        IDC_AGENTTEST_CTRLNUM,141,116,31,14,ES_AUTOHSCROLL
+    LTEXT           "距离",IDC_STATIC,111,132,25,8
+    EDITTEXT        IDC_AGENTTEST_CTRLDIST,141,130,31,14,ES_AUTOHSCROLL
+    LTEXT           "角度",IDC_STATIC,111,146,25,8
+    EDITTEXT        IDC_AGENTTEST_CTRLANGLE,141,144,31,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "设置",IDC_AGTEST_CTRLSET,141,159,30,14
+    GROUPBOX        "防守测试",IDC_STATIC,0,175,174,47
+    GROUPBOX        "技术挑战",IDC_STATIC,0,223,174,33
+    GROUPBOX        "多机测试",IDC_STATIC,0,259,174,62
+    LISTBOX         IDC_TACINFOLIST,0,325,171,146,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "@防射门",IDC_AGTEST_DEFBALL,5,183,39,14
+    PUSHBUTTON      "@防传球",IDC_AGTEST_DEFPASS,53,183,39,14
+    PUSHBUTTON      "障碍追踪",IDC_ENEMY_TRACK,5,202,39,14
+    PUSHBUTTON      "直接开始",IDC_TAC_START_AUTO,6,235,50,14
+    PUSHBUTTON      "技术挑战",IDC_TAC_TECHCHALLENGE,119,235,50,14
+    PUSHBUTTON      "双机传接球",IDC_TAC_TEST_PASSING,6,269,50,14
+    PUSHBUTTON      "四机传接球",IDC_TAC_TEST_4PASS,6,287,50,14
+    PUSHBUTTON      "无进攻策略",IDC_TAC_TEST_ALLDEF,6,305,50,14
+    PUSHBUTTON      "转圈跑",IDC_TAC_TEST_MOVEAROUND,63,269,50,14
+    PUSHBUTTON      "清空列表",IDC_CLEAN_TACINFO,64,305,50,14
+    PUSHBUTTON      "接球跑位",IDC_TAC_TEST_CATCHMOVE,121,268,50,14
+    PUSHBUTTON      "动一下",IDC_MOVETEST,120,305,50,14
+    LTEXT           "距离",IDC_STATIC,105,186,17,8
+    EDITTEXT        IDC_DEF_DIST,133,184,31,14,ES_AUTOHSCROLL
+END
+
+IDD_CHILD_REFEREE DIALOG DISCARDABLE  0, 0, 207, 374
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "裁判盒",IDC_STATIC,0,0,199,129
+    CONTROL         "",IDC_SIDE_CLR,"Static",SS_BLACKRECT | SS_NOTIFY,7,13,
+                    91,27
+    EDITTEXT        IDC_EDIT_REFBOX_IP,102,12,59,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "连接",IDC_REF_CNT,163,12,32,14
+    COMBOBOX        IDC_COMBO_REF_PROT,101,29,59,60,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "断开",IDC_REF_DISCNT,163,28,32,14
+    LISTBOX         IDC_REF_INFOLIST,6,46,190,63,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "本机IP",IDC_BTN_LOC_IP,6,112,50,14
+    PUSHBUTTON      "队员IP",IDC_BTN_AGENT_IP,60,112,50,14
+    GROUPBOX        "决策信息",IDC_STATIC,0,134,200,227
+    LISTBOX         IDC_DATA_INFOLIST,0,146,199,187,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_CHILD_STATUS DIALOG DISCARDABLE  0, 0, 358, 210
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "",IDC_ROBOT_STATUS,"Static",SS_BLACKRECT,205,7,146,76
+    CONTROL         "",IDC_ROLE_STATUS,"Static",SS_BLACKRECT,205,97,146,67
+    EDITTEXT        IDC_DIS_INFO,7,7,186,196,ES_MULTILINE
+END
+
+IDD_DLG_AGENT_IP DIALOG DISCARDABLE  0, 0, 270, 179
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "队员IP"
+FONT 9, "宋体"
+BEGIN
+    LISTBOX         IDC_AGENT_IPLIST,7,7,256,165,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DLG_LOC_IP DIALOG DISCARDABLE  0, 0, 196, 132
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "本机信息"
+FONT 9, "宋体"
+BEGIN
+    LISTBOX         IDC_IP_LIST,7,7,182,118,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "MSLFieldMonitor Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "MSLFieldMonitor\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2014\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "MSLFieldMonitor.EXE\0"
+            VALUE "ProductName", "MSLFieldMonitor 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_CHILD_FIELD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 630
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 381
+    END
+
+    IDD_CHILD_MAP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 267
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 252
+    END
+
+    IDD_CHILD_MATCH_PANEL, DIALOG
+    BEGIN
+        RIGHTMARGIN, 188
+        BOTTOMMARGIN, 471
+    END
+
+    IDD_CHILD_REFEREE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 200
+        BOTTOMMARGIN, 373
+    END
+
+    IDD_CHILD_STATUS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 351
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_DLG_AGENT_IP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 263
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 172
+    END
+
+    IDD_DLG_LOC_IP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 189
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 125
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_BTN_FLIP            PNG     DISCARDABLE     "res\\Flip.png"
+IDB_BTN_SETPLAYERIN     PNG     DISCARDABLE     "res\\SetPlayerIn.png"
+IDB_BTN_SHOWENEMYTRACK  PNG     DISCARDABLE     "res\\ShowEnemyTrack.png"
+IDB_BTN_SHOWOBST        PNG     DISCARDABLE     "res\\ShowObst.png"
+IDB_BTN_SHOWOBSTDEF     PNG     DISCARDABLE     "res\\ShowDefTarget.png"
+IDB_FIELD_LR            PNG     DISCARDABLE     "res\\Field_LR.png"
+IDB_FIELD_RL            PNG     DISCARDABLE     "res\\Field_RL.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_CHILD_REFEREE DLGINIT
+BEGIN
+    IDC_COMBO_REF_PROT, 0x403, 4, 0
+0x4354, 0x0050, 
+    IDC_COMBO_REF_PROT, 0x403, 10, 0
+0x754d, 0x746c, 0x6369, 0x7361, 0x0074, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      DISCARDABLE     "res\\XPstyle.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows 通信端口初始化失败。"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "MSLFieldMonitor\n\nMSLFie\n\n\nMSLFieldMonitor.Document\nMSLFie Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "MSLFieldMonitor"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "扩展名"
+    ID_INDICATOR_CAPS       "大写"
+    ID_INDICATOR_NUM        "数字"
+    ID_INDICATOR_SCRL       "滚动"
+    ID_INDICATOR_OVR        "改写"
+    ID_INDICATOR_REC        "记录"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "建立新文档\n新建"
+    ID_FILE_OPEN            "打开一个现有文档\n打开"
+    ID_FILE_CLOSE           "关闭活动文档\n关闭"
+    ID_FILE_SAVE            "保存活动文档\n保存"
+    ID_FILE_SAVE_AS         "将活动文档以一个新文件名保存\n另存为"
+    ID_FILE_PAGE_SETUP      "改变打印选项\n页面设置"
+    ID_FILE_PRINT_SETUP     "改变打印机及打印选项\n打印设置"
+    ID_FILE_PRINT           "打印活动文档\n打印"
+    ID_FILE_PRINT_PREVIEW   "显示整页\n打印预览"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "显示程序信息，版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "打开该文档"
+    ID_FILE_MRU_FILE2       "打开该文档"
+    ID_FILE_MRU_FILE3       "打开该文档"
+    ID_FILE_MRU_FILE4       "打开该文档"
+    ID_FILE_MRU_FILE5       "打开该文档"
+    ID_FILE_MRU_FILE6       "打开该文档"
+    ID_FILE_MRU_FILE7       "打开该文档"
+    ID_FILE_MRU_FILE8       "打开该文档"
+    ID_FILE_MRU_FILE9       "打开该文档"
+    ID_FILE_MRU_FILE10      "打开该文档"
+    ID_FILE_MRU_FILE11      "打开该文档"
+    ID_FILE_MRU_FILE12      "打开该文档"
+    ID_FILE_MRU_FILE13      "打开该文档"
+    ID_FILE_MRU_FILE14      "打开该文档"
+    ID_FILE_MRU_FILE15      "打开该文档"
+    ID_FILE_MRU_FILE16      "打开该文档"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回前一个窗格\n前一窗格"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "将活动的窗口分隔成窗格\n分隔"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "删除被选对象\n删除"
+    ID_EDIT_CLEAR_ALL       "全部删除\n全部删除"
+    ID_EDIT_COPY            "复制被选对象并将其置于剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切被选对象并将其置于剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的正文\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一步操作\n重复"
+    ID_EDIT_REPLACE         "用不同的正文替换指定的正文\n替换"
+    ID_EDIT_SELECT_ALL      "选择整个文档\n选择全部"
+    ID_EDIT_UNDO            "撤消最后一步操作\n撤消"
+    ID_EDIT_REDO            "重新执行先前已撤消的操作\n重新执行"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n显隐工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n显隐状态栏"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "改变窗口大小"
+    AFX_IDS_SCMOVE          "改变窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "把窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到先前的文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动的窗口并提示保存所有文档"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "把窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务表"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "关闭打印预览模式\n取消预阅"
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\MSLFieldMonitor.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#include "l.chs\afxprint.rc"        // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

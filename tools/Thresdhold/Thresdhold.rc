@@ -1,0 +1,394 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Thresdhold.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Thresdhold.ico"
+IDI_ICON1               ICON    DISCARDABLE     "res\\icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "毫无意义的“关于”对话框"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDI_ICON1,IDC_STATIC,11,17,20,20
+    LTEXT           "你可真够无聊的... 4/7/19留:这个软件竟然12年都没人动过了",
+                    IDC_STATIC,40,10,119,20,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2007",IDC_STATIC,147,33,73,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+    LTEXT           "飞奔的猪蹄 QQ：770528497",IDC_INFO,39,34,119,8
+END
+
+IDD_THRESDHOLD_DIALOG DIALOGEX 0, 0, 678, 446
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "中型组阈值预览   http://www.6-robot.com"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "Static",IDC_COLOR,286,7,383,229,SS_NOTIFY
+    CONTROL         "",IDC_VIEW,"Static",SS_BLACKRECT | SS_NOTIFY,7,7,275,
+                    212
+    GROUPBOX        "视频操作",IDC_STATIC,393,288,278,44
+    GROUPBOX        "阈值操作",IDC_STATIC,393,335,278,104
+    PUSHBUTTON      "打开视频(&O)",IDC_CREATCAP,617,298,50,14
+    PUSHBUTTON      "关闭视频(P)",IDC_CLOSECAP,617,314,50,14,WS_DISABLED
+    COMBOBOX        IDC_COMBO1,407,299,197,48,CBS_DROPDOWN | CBS_SORT | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "保存阈值(&S)",IDC_SAVEHSI,617,359,50,14
+    PUSHBUTTON      "读取阈值(&D)",IDC_LOADHSI,617,373,50,14
+    PUSHBUTTON      "预览全部(&A)",IDC_PREVIEW,617,345,50,14
+    PUSHBUTTON      "相机参数(&C)",IDC_DSPPROP,557,314,48,14
+    CONTROL         "全景中心校准(&Q)",IDC_OVERCENTER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,397,315,71,10
+    CONTROL         "前置视角调节",IDC_FRONTANG,"Button",BS_AUTOCHECKBOX | 
+                    NOT WS_VISIBLE | WS_TABSTOP,440,278,64,10
+    CONTROL         "List1",IDC_ITEMLIST,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,407,345,197,87
+    CONTROL         "",IDC_VIDEO,"Static",SS_BLACKRECT,7,227,275,212
+    GROUPBOX        "信息",IDC_STATIC,285,318,110,121
+    LISTBOX         IDC_INFOLIST,289,330,101,103,NOT LBS_NOTIFY | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "截图(&B)",IDC_CAPTURESTILL,617,390,50,14
+    PUSHBUTTON      "图片仿真(I)",IDC_LOADIMG,617,404,50,14
+    PUSHBUTTON      "视频仿真",IDC_VIDEOEMU,617,418,50,14,WS_DISABLED
+    PUSHBUTTON      "连续帧查看",IDC_FRAME_PREVIEW,511,314,43,14
+    PUSHBUTTON      "自动阈值",IDC_BUTTON1,471,313,37,15
+    PUSHBUTTON      "一键读取阈值",IDC_BUTTON2,288,298,51,15
+    PUSHBUTTON      "一键保存阈值",IDC_BUTTON3,341,298,51,15
+END
+
+IDD_CAMERAPROC_DIALOG DIALOG DISCARDABLE  0, 0, 251, 203
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Logitech QuickCam"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "白平衡(&W)",IDC_STATIC,29,19,37,8
+    CONTROL         "Slider1",IDC_WB_SLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,69,16,125,15
+    LTEXT           "曝光(&E)",IDC_STATIC,37,37,29,8
+    CONTROL         "Slider1",IDC_EXPO_SLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,69,33,125,15
+    LTEXT           "增益(&G)",IDC_STATIC,38,76,29,8
+    CONTROL         "Slider1",IDC_GAIN_SLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,69,72,125,15
+    LTEXT           "亮度(&B)",IDC_STATIC,37,93,29,8
+    CONTROL         "Slider1",IDC_BRI_SLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,69,89,125,15
+    LTEXT           "对比度(&C)",IDC_STATIC,29,110,37,8
+    CONTROL         "Slider1",IDC_CONT_SLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,69,105,125,15
+    LTEXT           "饱和度(&S)",IDC_STATIC,29,127,37,8
+    CONTROL         "Slider1",IDC_SATU_SLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,69,122,125,15
+    LTEXT           "清晰度(&A)",IDC_STATIC,29,144,37,8
+    CONTROL         "Slider1",IDC_SHAR_SLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,69,139,125,15
+    LTEXT           "逆光压缩(&K)",IDC_STATIC,21,161,45,8
+    CONTROL         "Slider1",IDC_BACKL_SLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,69,157,125,15
+    DEFPUSHBUTTON   "确定",IDOK,142,182,50,14
+    PUSHBUTTON      "取消",IDCANCEL,194,182,50,14
+    GROUPBOX        "关键参数",IDC_STATIC,7,7,235,50
+    GROUPBOX        "其他",IDC_STATIC,7,63,237,116
+    EDITTEXT        IDC_WB_VAL,195,17,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EXPO_VAL,195,35,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GAIN_VAL,195,74,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BRI_VAL,195,91,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CONT_VAL,195,107,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SATU_VAL,195,124,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SHAR_VAL,195,141,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BACKL_VAL,195,159,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "默认值(&D)",IDC_DEFAULTVAL,7,182,50,14
+    COMBOBOX        IDC_CAMERACOMBO,79,183,48,30,CBS_DROPDOWN | CBS_SORT | 
+                    NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DHCAMERA_DIALOG DIALOG DISCARDABLE  0, 0, 256, 261
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,143,240,50,14
+    PUSHBUTTON      "取消",IDCANCEL,199,240,50,14
+    GROUPBOX        "关键参数",IDC_STATIC,7,7,242,76
+    GROUPBOX        "白平衡",IDC_STATIC,7,142,242,96
+    LTEXT           "增益(&N)",IDC_STATIC,18,99,29,8
+    CONTROL         "Slider1",IDC_GAIN2_SLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,66,95,125,18
+    EDITTEXT        IDC_GAIN2_VAL,192,97,40,14,ES_AUTOHSCROLL
+    LTEXT           "曝光分子(&E)",IDC_STATIC,18,23,45,8
+    CONTROL         "Slider1",IDC_EU_SLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,66,20,125,18
+    EDITTEXT        IDC_EU_VAL,192,21,40,14,ES_AUTOHSCROLL
+    LTEXT           "全补偿(&A)",IDC_STATIC,18,157,37,8,WS_DISABLED
+    CONTROL         "Slider1",IDC_LUTALL_SLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_DISABLED | WS_TABSTOP,66,153,125,18
+    EDITTEXT        IDC_LUTALL_VAL,192,154,40,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "红补偿",IDC_STATIC,18,178,25,8,WS_DISABLED
+    CONTROL         "Slider1",IDC_LUTRED_SLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_DISABLED | WS_TABSTOP,66,174,125,18
+    EDITTEXT        IDC_LUTRED_VAL,192,175,40,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "绿补偿",IDC_STATIC,18,199,25,8,WS_DISABLED
+    CONTROL         "Slider1",IDC_LUTGREEN_SLIDER,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_DISABLED | WS_TABSTOP,66,195,
+                    125,18
+    EDITTEXT        IDC_LUTGREEN_VAL,192,196,40,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "蓝补偿",IDC_STATIC,18,220,25,8,WS_DISABLED
+    CONTROL         "Slider1",IDC_LUTBLUE_SLIDER,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_DISABLED | WS_TABSTOP,66,216,
+                    125,18
+    EDITTEXT        IDC_LUTBLUE_VAL,192,217,40,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "曝光分母(&L)",IDC_STATIC,18,44,45,8
+    CONTROL         "Slider1",IDC_EL_SLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,66,40,125,18
+    EDITTEXT        IDC_EL_VAL,192,42,40,14,ES_AUTOHSCROLL
+    GROUPBOX        "增益",IDC_STATIC,7,85,242,53
+    LTEXT           "ADC Bits(&D)",IDC_STATIC,18,63,45,8
+    COMBOBOX        IDC_CM_ADC,71,62,63,60,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "增益类型(&T)",IDC_STATIC,17,121,45,8
+    COMBOBOX        IDC_CM_GAIN,71,119,63,55,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_FRAME_PREVIEW_DIALOG DIALOG DISCARDABLE  0, 0, 303, 136
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Frame Preview"
+FONT 24, "宋体"
+BEGIN
+    CONTROL         "",IDC_FRAME_PRE,"Static",SS_BLACKRECT,0,0,149,106
+    LTEXT           "0 / 10",IDC_DIS_FRAMEPRE,53,107,30,8
+    CONTROL         "",IDC_FRAME_NEXT,"Static",SS_BLACKRECT,152,0,149,106
+    LTEXT           "0 / 10",IDC_DIS_FRAMENEXT,209,107,30,8
+    GROUPBOX        "",IDC_STATIC,0,113,303,23
+    PUSHBUTTON      "<<",IDC_FRAME_GOPRE,97,119,50,14
+    PUSHBUTTON      ">>",IDC_FRAME_GONEXT,151,119,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Thresdhold Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Thresdhold\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Thresdhold.EXE\0"
+            VALUE "ProductName", "Thresdhold 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_THRESDHOLD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 671
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 439
+    END
+
+    IDD_CAMERAPROC_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    IDD_DHCAMERA_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 254
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\Color.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\Pic00008.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_CAMERAPROC_DIALOG DLGINIT
+BEGIN
+    IDC_CAMERACOMBO, 0x403, 5, 0
+0xabc8, 0xb0be, "\000" 
+    IDC_CAMERACOMBO, 0x403, 5, 0
+0xb0c7, 0xd3ca, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      DISCARDABLE     "res\\style.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 这玩意(&A)..."
+    IDP_SOCKETS_INIT_FAILED "Windows 通信端口初始化失败。"
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Thresdhold.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

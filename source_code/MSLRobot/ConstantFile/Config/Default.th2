@@ -1,0 +1,56 @@
+[Time Log]
+Thresdhold= 2015-7-10 18:35:10
+[Black Thresdhold]
+Hue_Max=330
+Hue_Min=340
+Satu_Max=6
+Satu_Min=0
+Int_Max=9
+Int_Min=0
+[Green Thresdhold]
+Hue_Max=153
+Hue_Min=90
+Satu_Max=255
+Satu_Min=0
+Int_Max=57
+Int_Min=12
+[WhiteLine Thresdhold]
+Hue_Max=358
+Hue_Min=0
+Satu_Max=76
+Satu_Min=0
+Int_Max=255
+Int_Min=63
+[OverBall Thresdhold]
+Hue_Max=72
+Hue_Min=40
+Satu_Max=255
+Satu_Min=74
+Int_Max=248
+Int_Min=83
+[TeamMate Thresdhold]
+Hue_Max=314
+Hue_Min=284
+Satu_Max=0
+Satu_Min=0
+Int_Max=0
+Int_Min=0
+[Opponent Thresdhold]
+Hue_Max=330
+Hue_Min=287
+Satu_Max=0
+Satu_Min=0
+Int_Max=0
+Int_Min=0
+[Camera Parameter]
+WhiteBalance_Auto=0
+WhiteBalance_Red=66
+WhiteBalance_Green=74
+WhiteBalance_Blue=219
+ColorEnhancement=1
+Gain_Auto=0
+Gain_Value=11.990000
+Exposure_Auto=0
+Exposure_Value=0.009999
+Exposure_Auto_Reference=128
+Exposure_Auto_Max_Val=0
