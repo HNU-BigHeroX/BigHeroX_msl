@@ -133,7 +133,7 @@ If this code helps your team, course project, or RoboCup research, feedback is w
 
 Thanks to the following team members for their contributions in code development, parameter debugging, hardware structure, and more:
 
-[程民华](https://github.com/chengminhua), [穆森源](https://github.com/M8888-sy), [李路畅](https://github.com/RordChang), [任庸祥](https://github.com/ryx-hub), [黄景岳](https://github.com/MiyakoMeow), [申鑫洋](https://github.com/sxy0828), [陈兆基](https://github.com/Reflectedmoon), [马梓博](https://github.com/MAZB-YZI)
+[程民华](https://github.com/chengminhua), [刘佰幸](https://github.com/Liuhunck), [穆森源](https://github.com/M8888-sy), [李路畅](https://github.com/RordChang), [任庸祥](https://github.com/ryx-hub), [黄景岳](https://github.com/MiyakoMeow), [申鑫洋](https://github.com/sxy0828), [陈兆基](https://github.com/Reflectedmoon), [马梓博](https://github.com/MAZB-YZI)
 
 > If there are any omissions or misattributions, please submit an issue or PR to help us correct them.
 

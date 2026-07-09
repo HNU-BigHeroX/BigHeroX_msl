@@ -133,7 +133,7 @@
 
 感谢以下队员在代码编写、调试参数、硬件结构等方面的贡献：
 
-[程民华](https://github.com/chengminhua)、[穆森源](https://github.com/M8888-sy)、[李路畅](https://github.com/RordChang)、[任庸祥](https://github.com/ryx-hub)、[黄景岳](https://github.com/MiyakoMeow)、[申鑫洋](https://github.com/sxy0828)、[陈兆基](https://github.com/Reflectedmoon)、[马梓博](https://github.com/MAZB-YZI)
+[程民华](https://github.com/chengminhua)、[刘佰幸](https://github.com/Liuhunck)、[穆森源](https://github.com/M8888-sy)、[李路畅](https://github.com/RordChang)、[任庸祥](https://github.com/ryx-hub)、[黄景岳](https://github.com/MiyakoMeow)、[申鑫洋](https://github.com/sxy0828)、[陈兆基](https://github.com/Reflectedmoon)、[马梓博](https://github.com/MAZB-YZI)
 
 > 如有遗漏或归属有误，欢迎通过 issue 或 PR 补充修正。
 
